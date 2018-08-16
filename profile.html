@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Qilan Zhang / Portfolio </title>
+    <!-- Styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--<link rel="stylesheet" href="sass/app.processed.min.css"/>-->
+    <!--<link rel="stylesheet" href="sass/app.scss" type="text/scss"/>-->
+    <!--<link rel="stylesheet" href="sass/comp.scss" type="text/scss"/>-->
+    <link rel="stylesheet" href="sass/app.css"/>
+    <link rel="stylesheet" href="sass/comp.css"/>
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,700|Source+Sans+Pro:300,400,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <!-- Styles /End -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="materialize.css"/>
+    <!--<script src="js/libs/jquery.min.js" type="text/javascript"></script>-->
+    <script src="materialize.js" type="text/javascript"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.sidenav');
+            var instances = M.Sidenav.init(elems, options);
+        });
+        // $(document).ready(function(){
+        //     $('.sidenav').sidenav();
+        // });
+    </script>
+</head>
+
+<body>
+
+<!--<nav> &lt;!&ndash; navbar content here  &ndash;&gt;</nav>-->
+
+<ul id="slide-out" class="sidenav sidenav-fixed">
+    <li><div class="user-view">
+        <div class="background">
+            <img src="github.png">
+        </div>
+        <a href="#user"><img class="circle" src="photo.jpg"></a>
+        <a href="#name"><span class="white-text name">John Doe</span></a>
+        <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
+    </div></li>
+    <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+    <li><a href="#!">Second Link</a></li>
+    <li><div class="divider"></div></li>
+    <li><a class="subheader">Subheader</a></li>
+    <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+</ul>
+<a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+<ul id="slide-out" class="sidenav">
+    <li><a class="sidenav-close" href="#!">Clicking this will close Sidenav</a></li>
+</ul>
+<a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+
+<!--<ul id="slide-out" class="sidenav">-->
+    <!--<li><a href="#!">First Sidebar Link</a></li>-->
+    <!--<li><a href="#!">Second Sidebar Link</a></li>-->
+    <!--<li class="no-padding">-->
+        <!--<ul class="collapsible collapsible-accordion">-->
+            <!--<li>-->
+                <!--<a class="collapsible-header">Dropdown<i class="material-icons">arrow_drop_down</i></a>-->
+                <!--<div class="collapsible-body">-->
+                    <!--<ul>-->
+                        <!--<li><a href="#!">First</a></li>-->
+                        <!--<li><a href="#!">Second</a></li>-->
+                        <!--<li><a href="#!">Third</a></li>-->
+                        <!--<li><a href="#!">Fourth</a></li>-->
+                    <!--</ul>-->
+                <!--</div>-->
+            <!--</li>-->
+        <!--</ul>-->
+    <!--</li>-->
+<!--</ul>-->
+<!--<ul class="right hide-on-med-and-down">-->
+    <!--<li><a href="#!">First Sidebar Link</a></li>-->
+    <!--<li><a href="#!">Second Sidebar Link</a></li>-->
+    <!--<li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li>-->
+    <!--<ul id='dropdown1' class='dropdown-content'>-->
+        <!--<li><a href="#!">First</a></li>-->
+        <!--<li><a href="#!">Second</a></li>-->
+        <!--<li><a href="#!">Third</a></li>-->
+        <!--<li><a href="#!">Fourth</a></li>-->
+    <!--</ul>-->
+<!--</ul>-->
+<!--<a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>-->
+
+</body>
+</html>
